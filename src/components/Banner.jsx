@@ -1,7 +1,8 @@
 import React from 'react';
 import pattern from "../assets/vector1.png";
 
-const Banner = () => {
+const Banner = ({ inProgress, resolved }) => {
+ 
   return (
     <div className="grid md:grid-cols-2 gap-6 mt-10">
 
@@ -23,7 +24,7 @@ const Banner = () => {
 
         <div className="relative text-center">
           <h3 className="text-xl">In-Progress</h3>
-          <p className="text-5xl font-bold mt-4">0</p>
+          <p className="text-5xl font-bold mt-4">{inProgress}</p>
         </div>
 
       </div>
@@ -47,7 +48,7 @@ const Banner = () => {
 
         <div className="relative text-center">
           <h3 className="text-xl">Resolved</h3>
-          <p className="text-5xl font-bold mt-4">0</p>
+          <p className="text-5xl font-bold mt-4">{resolved}</p>
         </div>
 
       </div>
