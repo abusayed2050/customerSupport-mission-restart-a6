@@ -1,5 +1,6 @@
+import React from 'react';
 
-function Footer() {
+const Footer = () => {
   return (
     <footer className="bg-black text-gray-400">
       <div className="max-w-7xl mx-auto px-6 py-14 grid md:grid-cols-5 gap-10">

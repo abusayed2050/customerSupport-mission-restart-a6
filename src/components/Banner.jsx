@@ -1,6 +1,7 @@
+import React from 'react';
 import pattern from "../assets/vector1.png";
 
-function Banner() {
+const Banner = () => {
   return (
     <div className="grid md:grid-cols-2 gap-6 mt-10">
 

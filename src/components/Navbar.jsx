@@ -1,6 +1,6 @@
+import React from 'react';
 
-
-function Navbar() {
+const Navbar = () => {
   return (
     <div>
       <div className="navbar bg-base-100 shadow-sm">
@@ -32,7 +32,7 @@ function Navbar() {
       </li>
       </ul>
     </div>
-    <a href="home" className=" text-xl">CS — Ticket System</a>
+    <a href="home" className=" text-lg font-bold">CS — Ticket System</a>
   </div>
   <div className=" hidden lg:flex">
     <ul className="flex gap-4  px-4">
