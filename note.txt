@@ -1,0 +1,22 @@
+Live Link : https://customer-support-app-mon392026603am.surge.sh/
+GitHub Repository : https://github.com/abusayed2050/customerSupport-mission-restart-a6
+
+Deploying to Surge 
+------------------
+* Install: npm install -g surge and check surge whoami
+* Automation Script (package.json----"scripts": {write this script here} ) 
+    #for mac and linux user
+        --"deploy:surge": "npm run build && cp dist/index.html dist/200.html && surge dist https://your-unique-name.surge.sh"
+    
+    #for windows user
+        --"deploy:surge": "npm run build && copy dist\\index.html dist\\200.html && surge dist https://customer-support-app-MON392026603AM.surge.sh"
+* Email address and Password 
+
+* Example is [open package.json file ]
+    "scripts": {
+            "dev": ,
+            "build": ,
+            "lint": ,
+            "preview":,
+            "deploy:surge": "npm run build && copy dist\\index.html dist\\200.html && surge dist https://customer-support-app-MON392026603AM.surge.sh"
+         },
